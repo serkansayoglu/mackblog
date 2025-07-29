@@ -6,7 +6,8 @@
   "author": "ElegantStack Team",
   "license": "",
   "scripts": {
-    "postinstall": "cd ../../.. && npx patch-package --patch-dir ./patches/gatsby-theme-flexiblog"
+    "postinstall": "cd ../../.. && npx patch-package --patch-dir ./patches/gatsby-theme-flexiblog",
+    "build": "gatsby build"
   },
   "dependencies": {
     "@elegantstack/gatsby-plugin-mkdir": "^3.0.0",
